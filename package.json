@@ -1,0 +1,23 @@
+{
+  "name": "touristapi",
+  "version": "1.0.0",
+  "description": "Api for tourist location in Toronto",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GaoYeGithub/touristapi.git"
+  },
+  "author": "Ye Gao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GaoYeGithub/touristapi/issues"
+  },
+  "homepage": "https://github.com/GaoYeGithub/touristapi#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
