@@ -192,3 +192,32 @@ Each attraction is represented as a GeoJSON Feature with the following structure
 | CITY | City name |
 | ATTRACTION | Description of the attraction |
 | MAP_ACCESS | Whether map access is available (Y/N) |
+
+## Example Requests
+
+Here are some example URLs to test the API:
+
+1. **Get all attractions**:
+   ```
+   GET http://localhost:3000/api/attractions
+   ```
+
+2. **Search attractions by name**:
+   ```
+   GET http://localhost:3000/api/attractions/search?query=CN+Tower
+   ```
+
+3. **Search by category**:
+   ```
+   GET http://localhost:3000/api/attractions/search?category=Museum
+   ```
+
+4. **Get nearby attractions** (5km radius around downtown Toronto):
+   ```
+   GET http://localhost:3000/api/attractions/nearby?lat=43.6532&lng=-79.3832&radius=5
+   ```
+
+5. **Get a specific attraction by ID**:
+   ```
+   GET http://localhost:3000/api/attractions/1
+   ```
